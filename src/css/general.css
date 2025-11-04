@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-size: 10px;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--secondary-color);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  font-size: 1.6rem;
+  position: relative;
+
+  @media only screen and (max-width: 750px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 7rem 1fr;
+  }
+}
+
+/* 
+-FONTSIZE SYSTEM (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+SPACING SYSTEM (px):
+/ 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+--Media brekponits--
+
+0-600px      phone
+600px-900px  tablet portrait
+900px-1200px tablet landscape
+1200px + X   larger screen
+
+*/

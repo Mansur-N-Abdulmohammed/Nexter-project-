@@ -1,0 +1,23 @@
+:root {
+  /* font */
+  --primary-font: "Rubik", sans-serif;
+  --secondary-font: "Josefin Sans", sans-serif;
+
+  /* color */
+  --primary-color: #c69963;
+  --primary-light-color: #ecb674;
+  --primary-dark-color: #b28451;
+
+  --secondary-color: #101d2c;
+  --secondary-color-custom-for-header: rgba(16, 29, 44, 0.93);
+
+  --color-grey-light-1: #f9f7f6;
+  --color-grey-light-2: #aaa;
+
+  --color-grey-dark-1: #54483a;
+  --color-grey-dark-2: #6d5d4b;
+
+  /* shadow */
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+}
