@@ -1,6 +1,6 @@
 .fetured-section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
   align-items: start;
   column-gap: 3rem;
   row-gap: 6rem;
@@ -8,9 +8,9 @@
   .fetured-item {
     display: grid;
     grid-template-columns: auto 1fr;
-    column-gap: 1.6rem;
-    row-gap: 1.6rem;
-    ion-icon {
+    column-gap: 2.6rem;
+    row-gap: 1.4rem;
+    svg {
       transform: translateY(-1.6rem);
       grid-row: 1/3;
       width: 5rem;

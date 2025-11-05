@@ -49,8 +49,8 @@
 .par-4,
 .par-5,
 .par-6 {
-  font-family: var(--secondary-font);
-  font-weight: 300;
+  font-family: var(--primary-font);
+  font-weight: 200;
 }
 
 .par-1 {
@@ -63,11 +63,27 @@
   font-size: 2rem;
 }
 .par-4 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .par-5 {
   font-size: 1.2rem;
 }
 .par-6 {
   font-size: 1rem;
+}
+
+.par-primary {
+  color: var(--primary-color);
+}
+.par-grey-dark-1 {
+  color: var(--color-grey-dark-1);
+}
+.par-grey-dark-2 {
+  color: var(--color-grey-dark-2);
+}
+.par-grey-light-1 {
+  color: var(--color-grey-light-1);
+}
+.par-grey-light-2 {
+  color: var(--color-grey-light-2);
 }
