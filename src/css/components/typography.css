@@ -1,0 +1,73 @@
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-6 {
+  font-family: var(--secondary-font);
+  font-weight: 400;
+}
+
+.heading-1 {
+  font-size: 4.4rem;
+}
+.heading-2 {
+  font-size: 3.6rem;
+}
+.heading-3 {
+  font-size: 3rem;
+}
+.heading-4 {
+  font-size: 2.4rem;
+}
+.heading-5 {
+  font-size: 1.8rem;
+}
+.heading-6 {
+  font-size: 1rem;
+}
+
+.h-c-primary {
+  color: var(--primary-color);
+}
+.h-c-grey-dark-1 {
+  color: var(--color-grey-dark-1);
+}
+.h-c-grey-dark-2 {
+  color: var(--color-grey-dark-2);
+}
+.h-c-grey-light-1 {
+  color: var(--color-grey-light-1);
+}
+.h-c-grey-light-2 {
+  color: var(--color-grey-light-2);
+}
+
+.par-1,
+.par-2,
+.par-3,
+.par-4,
+.par-5,
+.par-6 {
+  font-family: var(--secondary-font);
+  font-weight: 300;
+}
+
+.par-1 {
+  font-size: 3rem;
+}
+.par-2 {
+  font-size: 2.4rem;
+}
+.par-3 {
+  font-size: 2rem;
+}
+.par-4 {
+  font-size: 1.6rem;
+}
+.par-5 {
+  font-size: 1.2rem;
+}
+.par-6 {
+  font-size: 1rem;
+}
