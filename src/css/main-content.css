@@ -6,10 +6,10 @@
 
   row-gap: 20rem;
   grid-template-columns:
-    minmax(6rem, 1fr)
+    minmax(10rem, 1fr)
     repeat(8, minmax(min-content, 13rem))
-    minmax(6rem, 1fr);
-  grid-template-rows: 100vh repeat(5, min-content);
+    minmax(10rem, 1fr);
+  grid-template-rows: repeat(6, min-content);
 }
 
 .header-section {
@@ -31,4 +31,10 @@
   background-color: var(--secondary-color);
   grid-column: 1/-1;
   margin-top: -20rem;
+}
+
+@media only screen and (max-width: 590px) {
+  html {
+    /* font-size: 40%; */
+  }
 }

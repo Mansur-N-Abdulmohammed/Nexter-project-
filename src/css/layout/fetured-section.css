@@ -1,6 +1,6 @@
 .fetured-section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   align-items: start;
   column-gap: 3rem;
   row-gap: 6rem;

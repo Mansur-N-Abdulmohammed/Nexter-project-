@@ -1,3 +1,129 @@
 .header-section {
   background-color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: 1fr 35rem;
+
+  @media only screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+  }
+}
+
+.hero {
+  height: 100vh;
+  padding: 10rem 6rem;
+  background-image: linear-gradient(var(--secondary-color-custom-for-header)),
+    url(../../../media/img/pexels-antonio-cuellar-2825974-4366060.jpg);
+  background-size: cover;
+  background-position: center center;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr repeat(3, min-content) 1fr min-content;
+  gap: 1.6rem;
+
+  .nexter-logo {
+    height: 3rem;
+    justify-self: center;
+  }
+  .hero-btn {
+    margin-top: 3rem;
+    justify-self: start;
+  }
+
+  .seenon {
+    justify-self: stretch;
+    align-self: self-end;
+    color: var(--color-grey-light-1);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    filter: brightness(0.7);
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    gap: 1rem;
+    align-items: center;
+
+    &::after,
+    &::before {
+      content: "";
+      border-radius: 1rem;
+      background-color: currentColor;
+      height: 0.1rem;
+    }
+  }
+  .logos {
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(min-content, 20rem));
+    justify-items: center;
+    justify-content: center;
+    grid-column-gap: 3rem;
+    row-gap: 3rem;
+
+    @media only screen and (max-width: 590px) {
+      grid-template-columns: repeat(2, minmax(min-content, 20rem));
+      grid-auto-rows: 10rem;
+    }
+    img {
+      height: 2.2rem;
+      filter: brightness(0.7);
+
+      @media only screen and (max-width: 590px) {
+        height: 2.7rem;
+        align-self: center;
+        justify-self: center;
+      }
+    }
+  }
+}
+.relator {
+  background-color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: min-content repeat(3, max-content);
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 4rem;
+  padding: 6rem 3rem;
+
+  @media only screen and (max-width: 1000px) {
+    grid-template-rows: repeat(2, min-content);
+    grid-template-columns: repeat(auto-fit, 30rem);
+    row-gap: 5rem;
+    h5 {
+      grid-column: 1/-1;
+    }
+  }
+  h5 {
+    font-weight: 400;
+  }
+
+  .profile {
+    justify-self: stretch;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: repeat(2, min-content);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 2rem;
+    row-gap: 0.7rem;
+    @media only screen and (max-width: 1000px) {
+      grid-template-columns: repeat(2, max-content);
+    }
+    h4 {
+      align-self: self-end;
+    }
+    span {
+      color: rgba(255, 255, 255, 0.644);
+      align-self: self-start;
+      font-size: 1.4rem;
+    }
+    img {
+      grid-row: 1/-1;
+      height: 8rem;
+      border-radius: 50%;
+    }
+  }
 }
